@@ -1,0 +1,305 @@
+body {
+  font-family: 'Karla', sans-serif;
+  font-weight: 400;
+}
+
+h1, h2, h3 {
+  font-family: 'DM Serif Display', serif;
+}
+
+p {
+  line-height: 2;
+}
+
+/* Navigation Bar */
+#navbar {
+  background-color: #fff;
+  padding: 1% 10%;
+  position: relative;
+  z-index: 2;
+}
+
+.nav-item {
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  margin: 0 7px;
+}
+
+.btn-nav {
+  border-color: black;
+  border-width: 1.5px;
+  border-style: solid;
+  border-radius: 0;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  padding: 8px 25px;
+}
+
+/* Containers */
+.title-container {
+  background-color: hsl(256, 26%, 20%);
+  color: #fff;
+  padding: 5% 10%;
+  position: relative;
+}
+
+.banner-container {
+  background-color: hsl(256, 26%, 20%);
+  color: #fff;
+  margin: 0;
+  max-width: 100%;
+  padding: 5% 5% 3.8%;
+  position: relative;
+}
+
+.footer-container {
+  background-color: hsl(0, 0%, 98%);
+  padding: 3% 12% 0;
+  position: relative;
+  font-size: 0.8rem;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}
+
+/* Headings */
+.top-h1 {
+  font-size: 4.5rem;
+  padding: 0 3% 3% 0;
+}
+
+.middle-h1 {
+  font-size: 4.5rem;
+  margin-bottom: 3.5rem;
+}
+
+.banner-h1 {
+  color: white;
+  font-size: 3.5rem;
+}
+
+/* Horizontal Rules */
+.hr1 {
+  border-style: solid;
+  border-width: 0.5px;
+  margin-bottom: 3.5rem;
+  margin-left: 0;
+  width: 30%;
+}
+
+.hr2 {
+  border-style: solid;
+  border-width: 0.5px;
+  color: grey;
+  margin-left: 0;
+  margin-bottom: 3.5rem;
+  width: 13%;
+}
+
+.hr3 {
+  border-color: silver;
+  border-style: solid;
+  border-width: 0.5px;
+  margin-top: 2rem;
+}
+
+/* Weird Fuckin Shapes */
+.pattern-top-right {
+  max-width: 100%;
+  position: absolute;
+  right: 0;
+  top: -13%;
+  z-index: 1;
+}
+
+.pattern-top-left {
+  max-width: 100%;
+  position: absolute;
+  left: 0;
+  top: 70%;
+}
+
+.pattern-banner {
+  max-width: 100%;
+  max-height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.pattern-bottom-left {
+  max-width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* Title */
+.top-text {
+  color: #DBDEDF;
+}
+
+.family-img {
+  max-width: 100%;
+  position: absolute;
+}
+
+.white-btn {
+  border-color: #DBDEDF;
+  border-width: 1.5px;
+  border-style: solid;
+  border-radius: 0;
+  color: #DBDEDF;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  padding: 8px 25px;
+}
+
+/* Features */
+#features {
+  padding: 20% 10% 0;
+}
+
+.feature-img {
+  margin-bottom: 2rem;
+}
+
+.feature-text {
+  color: hsl(273, 4%, 51%);
+  padding: 3% 3% 3% 0;
+}
+
+/* Banner */
+#banner {
+  background-color: #fff;
+  padding: 7% 10%;
+  position: relative;
+}
+
+.banner-box-btn {
+  margin: auto;
+  padding-right: 2rem;
+  text-align: right;
+}
+
+/* Footer */
+#footer {
+  background-color: #fff;
+  padding-top: 5%;
+  position: relative;
+}
+
+/* Footer Icons */
+.footer-logo-box {
+  text-align: left;
+}
+
+.footer-icon-box {
+  text-align: right;
+}
+
+.social-icon {
+  color: gray;
+  margin: 0 10px;
+}
+
+.social-icon:hover {
+  color: black;
+}
+
+/* Footer links */
+.footer-row {
+  margin: 0;
+}
+
+.footer-column {
+  padding: 2rem 0;
+}
+
+.footer-link-title {
+  color: grey;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.footer-link {
+  color: black;
+  font-weight: bold;
+  line-height: 2.5;
+}
+
+.footer-link:hover {
+  color: black;
+}
+
+/* Coded By */
+.final-p {
+  text-align: center;
+  margin: 0;
+}
+
+/* Media Queries */
+@media (max-width: 605px) {
+  body {
+    text-align: center;
+  }
+
+  /* Heading */
+  .top-h1, .middle-h1, .banner-h1 {
+    font-size: 3rem;
+  }
+
+  /* Title */
+  .title-column {
+    padding: 10%;
+  }
+
+  .hr1 {
+    display: none;
+  }
+
+  .family-img {
+    position: relative
+  }
+
+  /* Features */
+  .hr2 {
+    margin: 0 auto 3.5rem;
+    width: 40%;
+  }
+
+  .feature-box {
+    padding: 5% 5% 0;
+  }
+
+  /* Banner */
+  #banner {
+    padding: 30% 10%;
+  }
+
+  .banner-container {
+    padding: 15% 10%;
+  }
+
+  .banner-box-h1, .banner-box-btn {
+    padding: 5%;
+    text-align: center;
+  }
+
+  /* Footer */
+  #footer {
+    padding: 0;
+  }
+
+  .footer-container {
+    padding: 20% 10% 3%;
+  }
+
+  /* Footer Icons */
+  .footer-logo-box, .footer-icon-box {
+    text-align: center;
+    margin: 1rem;
+  }
+}
